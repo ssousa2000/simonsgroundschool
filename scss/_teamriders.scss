@@ -1,0 +1,37 @@
+.mainteamriders {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+    background-image: linear-gradient(to bottom, grey,#f1eaea);
+    h1{
+    background-color: grey;
+    }
+  }
+  .fotosteamriders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    img {
+        width: 30%;
+        height: 30%;
+        border: black solid 0.5rem;
+        border-radius: 40px;
+        box-shadow: black;
+      }
+      h2 {
+        text-decoration: underline;
+      }
+      .linkteamriders{
+        a{
+        color: black;
+      }
+      }
+  }
+  .linkteamriders{
+    a{
+    color: black;
+  }
+  }

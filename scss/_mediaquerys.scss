@@ -1,0 +1,136 @@
+@media (max-width: 768px){
+    .navbar{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+      justify-content: center;
+        .nav-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .nav-link {
+            width: 100%;
+          }
+      }
+    }
+      .navbar-brand {
+        text-align: center;
+        width: 100%;
+      }
+      .footerlinks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a {
+            margin: 10px 0;
+            padding: 10px;
+          }
+      }
+      footer {
+        padding: 1rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+        form button {
+            margin-top: 10px;
+            width: 100%;
+          }
+      }
+      .mainiframe {
+        width: 70%;
+        height: 25%;
+      }
+      .mainshapes {
+        grid-template-columns: 1fr;
+      }
+    
+      .fotoshapes {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        img {
+          width: 55%;
+          height: 70%;
+        }
+      }
+      .fotostienda {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        img {
+            width: 200px;
+            height: auto;
+            border: 2px black solid;
+          }
+      }
+      .fotosteamriders {
+        img {
+            width: 60%;
+            height: 50%;
+          }
+        }
+        .fotosinicio {
+          flex-direction: column;
+          gap: 40px;
+       }
+      
+  }
+@media (max-width: 480px){
+    .footerlinks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a {
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 14px;
+          }
+      }
+      footer {
+        padding: 0.5rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+        form button {
+            margin-top: 10px;
+            width: 100%;
+            font-size: 14px;
+          }
+      }
+      .mainiframe {
+        width: 70%;
+      }
+      .fotoshapes {
+      img {
+        width: 100%;
+        height: 80%;
+      }
+    }
+      .fotostienda {
+        gap: 20px;
+        img {
+            width: 180px;
+            height: auto;
+            border: 2px black solid;
+          }
+      }
+      .fotosteamriders {
+        img {
+            width: 55%;
+            height: 70%;
+          }
+        }
+        .fotosinicio {
+          flex-direction: column;
+          gap: 40px;
+       }
+}

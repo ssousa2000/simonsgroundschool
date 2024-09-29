@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    background-color: black;
+    color: grey;
+    a {
+      color: white;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        display: inline-block;
+        text-decoration: none;
+      }
+    }
+  }
+  h1 {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }

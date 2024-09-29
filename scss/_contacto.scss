@@ -1,0 +1,40 @@
+.maincontacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contacto {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .tablacontacto {
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    border-radius: 20px;
+  }
+  .formcontacto {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 20px;
+    input {
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(223, 213, 213);
+        color: black;
+      }
+  }
+ 
