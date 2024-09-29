@@ -70,7 +70,20 @@ ul li a {
 .formcontacto input {
   margin: 5px;
   padding: 5px;
-  background-color: rgb(223, 213, 213);
+  background-color: #dfd5d5;
+  color: black;
+  width: 30%;
+}
+.formcontacto .stageinput {
+  width: 50%;
+}
+.formcontacto .emailinput {
+  width: 50%;
+}
+.formcontacto textarea {
+  background-color: #dfd5d5;
+  margin: 5px;
+  padding: 5px;
   color: black;
 }
 
@@ -134,6 +147,7 @@ footer {
   border: 1rem;
   background-color: black;
   color: white;
+  text-align: center;
 }
 footer a {
   color: white;

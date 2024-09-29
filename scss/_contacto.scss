@@ -33,8 +33,21 @@
     input {
         margin: 5px;
         padding: 5px;
-        background-color: rgb(223, 213, 213);
+        background-color: #dfd5d5;
         color: black;
+        width: 30%;
       }
+  .stageinput{
+    width: 50%;
+  }
+  .emailinput{
+    width: 50%;
+  }
+  textarea{
+    background-color:#dfd5d5 ;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+  }
   }
  
