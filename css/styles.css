@@ -87,61 +87,6 @@ ul li a {
   color: black;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr) 0.6fr;
-  gap: 0px 0px;
-  grid-auto-flow: column;
-}
-
-.headercustom {
-  grid-area: 1/1/2/5;
-}
-
-.footercustom {
-  grid-area: 6/1/7/5;
-}
-
-.maincustom {
-  grid-area: 3/3/6/5;
-}
-
-.sectioncustom {
-  grid-area: 2/3/3/5;
-}
-
-.asidecustom {
-  grid-area: 2/1/6/3;
-}
-
-.customform {
-  background-color: black;
-  color: rgb(220, 215, 215);
-}
-.customform p {
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: larger;
-  font-style: italic;
-  text-align: left;
-}
-.customform h2 {
-  border: black solid 1.5px;
-  width: 25%;
-  text-align: center;
-}
-.customform label {
-  font-weight: bold;
-}
-
-.boarddescription p {
-  text-decoration: none;
-  font-weight: normal;
-  font-size: normal;
-  font-style: normal;
-}
-
 footer {
   padding: 1rem;
   border: 1rem;
@@ -374,9 +319,13 @@ h1 {
   background-color: rgb(242, 234, 234);
 }
 
+.fotoaboutus {
+  text-align: center;
+}
 .fotoaboutus img {
-  height: auto;
-  width: 70vw;
+  align-content: center;
+  height: 30%;
+  width: 30%;
   align-content: center;
   border: black solid 2px;
 }
@@ -444,100 +393,6 @@ h1 {
   border: double 3px black;
   text-decoration: none;
   border-radius: 5px;
-}
-
-.mainteamriders {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: grey;
-  background-image: linear-gradient(to bottom, grey, #f1eaea);
-}
-.mainteamriders h1 {
-  background-color: grey;
-}
-
-.fotosteamriders {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-}
-.fotosteamriders img {
-  width: 30%;
-  height: 30%;
-  border: black solid 0.5rem;
-  border-radius: 40px;
-  box-shadow: black;
-}
-.fotosteamriders h2 {
-  text-decoration: underline;
-}
-.fotosteamriders .linkteamriders a {
-  color: black;
-}
-
-.linkteamriders a {
-  color: black;
-}
-
-.fotostienda {
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: space-around;
-  gap: 60px;
-}
-.fotostienda a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  transition: all 0.2s;
-}
-.fotostienda a:hover {
-  background-color: black;
-  border: black double 2px;
-  border-radius: 30px;
-}
-.fotostienda img {
-  width: 300px;
-  border: 2px black solid;
-  transition: all 0.2s;
-}
-.fotostienda img:hover {
-  border-radius: 30px;
-  border: black double;
-}
-
-.linkstienda {
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: space-around;
-  gap: 20px;
-}
-.linkstienda a {
-  padding: 5px;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  border: black solid 1px;
-}
-.linkstienda a:hover {
-  background-color: black;
-  color: gray;
-  border: black double 2px;
-  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
