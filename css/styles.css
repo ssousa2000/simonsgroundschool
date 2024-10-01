@@ -42,12 +42,7 @@ ul li a {
   text-align: start;
   font-weight: bold;
 }
-.maincontacto .whatsapp {
-  text-align: center;
-  margin: 10px;
-  padding: 20px;
-}
-.maincontacto .whatsapp p {
+.maincontacto p {
   font-weight: bold;
   text-align: center;
 }
@@ -60,6 +55,30 @@ ul li a {
   flex-direction: row;
   align-items: flex-start;
   gap: 40px;
+}
+
+.whatsapp {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  color: rgb(22, 18, 18);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.whatsapp a {
+  background-color: #25D366;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  color: black;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.whatsapp a:hover {
+  background-color: #023b17;
+  transform: scale(1.2);
 }
 
 .tablacontacto {
